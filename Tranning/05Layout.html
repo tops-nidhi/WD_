@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        td{
+            border: 3px solid;
+        }
+        .header{
+            border-color: palevioletred;
+        }
+        .sideleftbar{
+            border-color:blue;
+        }
+        .content{
+            border-color:red;
+        }
+        .siderightbar{
+            border-color: yellow;
+        }
+        .footer{
+            border-color:green;
+        }
+    </style>
+</head>
+<body>
+    <p>Example of html page Layout:</p>
+    <img src="../Image/Layout.jpg" alt="Layout" height="300px">
+    <hr><p>Creating html page Layout using table tag:</p>
+    <table border="2" height="500px" cellpadding="15" cellspacing="10">
+        <thead>
+            <tr>
+                <td colspan="3" class="header">Header</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="20%" class="sideleftbar">Side left bar</td>
+                <td width="60%" class="content">Content</td>
+                <td class="siderightbar" width="20%">Side right bar</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="footer" colspan="3">Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
